@@ -1,0 +1,362 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+		'Helvetica Neue', sans-serif;
+}
+.container {
+	display: flex;
+	flex-flow: column nowrap; /*para que se adapte segun el tamaño establecido*/
+}
+
+a {
+	text-decoration: none;
+	color: #f1f1f1;
+	font-size: 20px;
+}
+
+a:hover {
+	color: pink;
+}
+.header {
+	background: linear-gradient(90deg, rgba(97, 79, 189, 1) 0%, rgba(111, 91, 192, 1) 35%, rgba(192, 157, 223, 1) 100%);
+	display: flex;
+	flex-flow: column nowrap;
+}
+.menu {
+	display: flex;
+	flex-flow: row nowrap;
+	height: 100px;
+	align-items: center;
+}
+
+.logo {
+	flex: 1 1 auto;
+	padding: 0px 0;
+	margin: 0px 0;
+	height: 85px;
+	display: flex;
+	justify-content: center;
+}
+
+.logoimg {
+	height: 18px;
+	background-size: cover;
+	padding: 0px 0;
+	margin: 0px 0;
+	height: 85px;
+}
+.nav {
+	flex: 5 1 auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	padding: 18px 0px;
+}
+.nav a {
+	padding: 0 22px;
+}
+.btn {
+	background: #614fbd;
+	flex: 1 1 auto;
+	border-radius: 50px 50px 50px 0;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	text-align: center;
+	padding: 18px 0;
+}
+
+.portada {
+	display: flex;
+}
+.textportada {
+	flex: 2 1 auto;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	padding: 25px;
+}
+h1 {
+	color: #f1f1f1;
+	font-size: 45px;
+	line-height: 1.3;
+	padding: 5px 5px 25px 5px;
+}
+.textheader {
+	color: #f1f1f1;
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 1.6;
+	padding: 35px 5px 25px 5px;
+}
+.appstorecontainer {
+	display: flex;
+	padding: 15px 5px 15px 5px;
+}
+.applestore {
+	flex: 1 1 auto;
+	border-radius: 50px 50px 50px 0;
+	border: 2px solid #f1f1f1;
+	text-align: center;
+	color: #f1f1f1;
+	padding: 18px 0;
+	margin: 5px;
+}
+.googlestore {
+	flex: 1 1 auto;
+	border-radius: 50px 50px 50px 0;
+	border: 2px solid #f1f1f1;
+	text-align: center;
+	color: #f1f1f1;
+	padding: 18px 0;
+	margin: 5px;
+}
+.mintext {
+	color: #f1f1f1;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.6;
+	font-style: italic;
+}
+
+.appmovil {
+	flex: 1 1 auto;
+}
+.phone {
+	max-width: 100%;
+}
+
+.section {
+	background: #c09ddf;
+	display: flex;
+	flex-flow: column;
+}
+
+.mision {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.textmision {
+	flex: 1 1 auto;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	padding: 25px;
+}
+h2 {
+	color: #f1f1f1;
+	font-size: 38px;
+	line-height: 1.3;
+	padding: 15px 5px 15px 35px;
+}
+.pmision {
+	color: #f1f1f1;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.6;
+	padding: 15px 5px 15px 35px;
+}
+
+.imgmision {
+	flex: 2 1 auto;
+	width: 100px;
+}
+.valores {
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 35px;
+}
+.textvalores {
+	flex: 1 1 auto;
+}
+.containervalores {
+	flex: 1 1 auto;
+	display: flex;
+	padding: 15px 5px 15px 35px;
+}
+.integridad {
+	background: #614fbd;
+	flex: 1 1 auto;
+	border-radius: 50px 50px 50px 0;
+	border: 2px solid #f1f1f1;
+	text-align: center;
+	color: #f1f1f1;
+	font-size: 20px;
+	padding: 15px;
+	margin: 10px;
+}
+.confianza {
+	background: #614fbd;
+	flex: 1 1 auto;
+	border-radius: 50px 50px 50px 0;
+	border: 2px solid #f1f1f1;
+	text-align: center;
+	color: #f1f1f1;
+	font-size: 20px;
+	padding: 15px;
+	margin: 10px;
+}
+.adaptabilidad {
+	background: #614fbd;
+	flex: 1 1 auto;
+	border-radius: 50px 50px 50px 0;
+	border: 2px solid #f1f1f1;
+	text-align: center;
+	color: #f1f1f1;
+	font-size: 20px;
+	padding: 15px;
+	margin: 10px;
+}
+
+.footer {
+	background: linear-gradient(
+		90deg,
+		rgba(192, 157, 223, 1) 0%,
+		rgba(192, 157, 223, 1) 25%,
+		rgba(97, 79, 189, 1) 100%
+	);
+	display: flex;
+	padding: 35px;
+}
+
+.socialcontainer {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+.imagefooter {
+	flex: 1 1 auto;
+	max-width: 400px;
+}
+.socialmedia {
+	display: flex;
+	flex-flow: row nowrap;
+	color: #f1f1f1;
+}
+
+.icon-social-media {
+    font-size: 60px;
+    margin: 0px 20px;
+}
+
+h3 {
+	color: #f1f1f1;
+	font-size: 30px;
+	line-height: 1.3;
+	text-align: center;
+	padding: 15px;
+}
+.form {
+	flex: 1 1 auto;
+	color: #f1f1f1;
+	padding: 15px;
+}
+
+label {
+	font-size: 16px;
+	line-height: 1.3;
+	text-align: right;
+	padding: 15px;
+}
+
+.pencil-icon-container{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    align-items: flex-start;
+}
+
+.pencil-icon {
+	width: 14px;
+}
+
+input {
+	background: rgba(0, 0, 0, .1);
+	border: 0;
+    flex: 1;
+    font-size: 16px;
+    background: none;
+}
+
+textarea{
+    background: rgba(0, 0, 0, .1);
+	border: 0;
+    flex: 1;
+    font-size: 16px;
+    background: none !important;
+}
+
+::placeholder {
+	color: #fff;
+	opacity: 1;
+}
+
+.input-container {
+	display: flex;
+	justify-content: flex-end;
+    margin: 20px 0px;
+    align-items: flex-start !important;
+}
+
+textarea {
+	background: rgba(0, 0, 0, .1);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.button-submit-form {
+    font-size: 20px;
+}
+
+.flex-outer li,
+.flex-inner {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.flex-outer > li > label,
+.flex-outer li p {
+	flex: 1 0 120px;
+	max-width: 220px;
+}
+
+.flex-outer > li > label + *,
+.flex-inner {
+	flex: 1 0 220px;
+}
+
+@media all and (max-width: 600px) {
+	.appmovil {
+		display: none;
+	}
+	.imgmision {
+		display: none;
+	}
+	.valores {
+		display: none;
+	}
+	.footer {
+		flex-direction: column;
+	}
+}
